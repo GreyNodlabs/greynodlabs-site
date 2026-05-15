@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Privacy Policy | GreyNod Labs</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#05060f;
+    color:#fff;
+    overflow-x:hidden;
+}
+
+/* Background */
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:
+    radial-gradient(circle at top right, rgba(124,92,255,0.15), transparent 30%),
+    linear-gradient(to bottom, rgba(255,255,255,0.02), rgba(255,255,255,0));
+    pointer-events:none;
+    z-index:-1;
+}
+
+/* Navbar */
+
+.navbar{
+    width:100%;
+    padding:24px 8%;
+    border-bottom:1px solid rgba(255,255,255,0.06);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    backdrop-filter:blur(14px);
+    background:rgba(5,6,15,0.75);
+    z-index:100;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:800;
+    letter-spacing:1px;
+}
+
+.logo span{
+    color:#8a6cff;
+}
+
+.nav-links{
+    display:flex;
+    gap:40px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#d5d7e0;
+    font-size:15px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#8a6cff;
+}
+
+/* Hero */
+
+.policy-hero{
+    padding:110px 8% 70px;
+}
+
+.policy-label{
+    color:#8a6cff;
+    font-size:14px;
+    letter-spacing:6px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.policy-title{
+    font-size:72px;
+    line-height:0.95;
+    font-weight:800;
+    max-width:700px;
+    margin-bottom:24px;
+}
+
+.policy-sub{
+    color:#9ea3b5;
+    font-size:20px;
+    line-height:1.8;
+    max-width:760px;
+}
+
+/* Content */
+
+.policy-wrapper{
+    width:100%;
+    padding:0 8% 120px;
+}
+
+.policy-box{
+    background:rgba(255,255,255,0.03);
+    border:1px solid rgba(255,255,255,0.06);
+    border-radius:28px;
+    padding:70px;
+}
+
+.policy-section{
+    margin-bottom:60px;
+}
+
+.policy-section:last-child{
+    margin-bottom:0;
+}
+
+.policy-section h2{
+    font-size:34px;
+    margin-bottom:22px;
+    font-weight:700;
+}
+
+.policy-section p{
+    color:#a7acbb;
+    line-height:2;
+    font-size:17px;
+    margin-bottom:18px;
+}
+
+.policy-section ul{
+    padding-left:22px;
+}
+
+.policy-section li{
+    color:#a7acbb;
+    line-height:2;
+    font-size:17px;
+    margin-bottom:8px;
+}
+
+/* Footer */
+
+.footer{
+    padding:40px 8%;
+    border-top:1px solid rgba(255,255,255,0.06);
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.footer p{
+    color:#8f94a6;
+    font-size:14px;
+}
+
+.footer-links{
+    display:flex;
+    gap:24px;
+}
+
+.footer-links a{
+    color:#8f94a6;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.footer-links a:hover{
+    color:#8a6cff;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+    .policy-title{
+        font-size:52px;
+    }
+
+    .policy-box{
+        padding:40px 30px;
+    }
+
+    .policy-section h2{
+        font-size:28px;
+    }
+
+    .nav-links{
+        display:none;
+    }
+}
+
+@media(max-width:600px){
+
+    .policy-title{
+        font-size:42px;
+    }
+
+    .policy-sub{
+        font-size:17px;
+    }
+
+    .policy-section p,
+    .policy-section li{
+        font-size:15px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        Grey<span>Nod</span> Labs
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+</nav>
+
+<!-- Hero -->
+
+<section class="policy-hero">
+
+    <div class="policy-label">
+        LEGAL
+    </div>
+
+    <h1 class="policy-title">
+        Privacy Policy
+    </h1>
+
+    <p class="policy-sub">
+        GreyNod Labs respects your privacy and is committed to protecting any information shared through our website, communication channels, and security engagements.
+    </p>
+
+</section>
+
+<!-- Content -->
+
+<section class="policy-wrapper">
+
+<div class="policy-box">
+
+    <div class="policy-section">
+        <h2>Information We Collect</h2>
+
+        <p>
+            We may collect information such as your name, email address, company details, and any information voluntarily submitted through contact forms or communication channels.
+        </p>
+
+        <p>
+            Technical information including browser type, IP address, device information, and website interaction analytics may also be collected for security and operational purposes.
+        </p>
+    </div>
+
+    <div class="policy-section">
+        <h2>How We Use Information</h2>
+
+        <ul>
+            <li>Provide cybersecurity consulting and security assessment services.</li>
+            <li>Respond to inquiries and support requests.</li>
+            <li>Improve website functionality and user experience.</li>
+            <li>Maintain operational security and detect misuse.</li>
+            <li>Comply with legal and regulatory obligations.</li>
+        </ul>
+    </div>
+
+    <div class="policy-section">
+        <h2>Data Protection</h2>
+
+        <p>
+            We implement reasonable technical and organizational safeguards designed to protect information from unauthorized access, disclosure, alteration, or destruction.
+        </p>
+
+        <p>
+            Security assessment data and client information are handled confidentially and accessed only by authorized personnel.
+        </p>
+    </div>
+
+    <div class="policy-section">
+        <h2>Third-Party Services</h2>
+
+        <p>
+            Our website may use trusted third-party tools or infrastructure providers for hosting, analytics, communication, or operational support. These providers may process information as required to deliver their services securely.
+        </p>
+    </div>
+
+    <div class="policy-section">
+        <h2>Cookies</h2>
+
+        <p>
+            We may use cookies and similar technologies to improve website performance, analyze traffic, and enhance user experience.
+        </p>
+    </div>
+
+    <div class="policy-section">
+        <h2>Policy Updates</h2>
+
+        <p>
+            This Privacy Policy may be updated periodically to reflect operational, legal, or security changes. Continued use of the website constitutes acceptance of the updated policy.
+        </p>
+    </div>
+
+    <div class="policy-section">
+        <h2>Contact</h2>
+
+        <p>
+            For privacy-related questions or requests, contact:
+        </p>
+
+        <p>
+            greynodlabs@gmail.com
+        </p>
+    </div>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer class="footer">
+
+    <p>
+        © 2026 GreyNod Labs. All rights reserved.
+    </p>
+
+    <div class="footer-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+    </div>
+
+</footer>
+
+</body>
+</html>
